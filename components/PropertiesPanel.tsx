@@ -75,7 +75,7 @@ const PropertiesPanel: React.FC<PropertiesPanelProps> = ({ element, onUpdate }) 
                    className="text-[10px] text-brand-400 hover:text-brand-300 flex items-center gap-1 px-1.5 py-0.5 rounded bg-brand-900/20 hover:bg-brand-900/40 transition-colors"
                    title="Use AI to rewrite this text"
                  >
-                   <Icons.Sparkles className="w-3 h-3" /> AI Rewrite
+                   {/* <Icons.Sparkles className="w-3 h-3" /> AI Rewrite */}
                  </button>
                </div>
                <input 
@@ -96,7 +96,7 @@ const PropertiesPanel: React.FC<PropertiesPanelProps> = ({ element, onUpdate }) 
                    disabled={isEnhancing}
                     className="text-[10px] text-brand-400 hover:text-brand-300 flex items-center gap-1 px-1.5 py-0.5 rounded bg-brand-900/20 hover:bg-brand-900/40 transition-colors"
                  >
-                    <Icons.Sparkles className="w-3 h-3" /> AI Rewrite
+                    {/* <Icons.Sparkles className="w-3 h-3" /> AI Rewrite */}
                  </button>
                </div>
                <textarea 
@@ -129,7 +129,7 @@ const PropertiesPanel: React.FC<PropertiesPanelProps> = ({ element, onUpdate }) 
                    disabled={isEnhancing}
                     className="text-[10px] text-brand-400 hover:text-brand-300 flex items-center gap-1 px-1.5 py-0.5 rounded bg-brand-900/20 hover:bg-brand-900/40 transition-colors"
                  >
-                    <Icons.Sparkles className="w-3 h-3" /> AI Rewrite
+                    {/* <Icons.Sparkles className="w-3 h-3" /> AI Rewrite */}
                  </button>
                </div>
                <textarea 
