@@ -84,10 +84,10 @@ const Sidebar: React.FC<SidebarProps> = ({ onAddElement, isGenerating }) => {
           <div className="space-y-4 animate-in fade-in slide-in-from-left-2 duration-300">
             <div className="p-3 bg-brand-950/40 border border-brand-500/20 rounded-lg">
               <h3 className="text-xs font-semibold text-brand-200 mb-1 flex items-center gap-2">
-                <Icons.Sparkles className="w-3.5 h-3.5 text-brand-400" /> Gemini Assistant
+                <Icons.Sparkles className="w-3.5 h-3.5 text-brand-400" /> AI Assistant
               </h3>
               <p className="text-[11px] text-brand-200/60 leading-normal">
-                Describe the section you want, and Gemini will generate the layout and content for you.
+                Describe the section you want, and AI will generate the layout and content for you.
               </p>
             </div>
 

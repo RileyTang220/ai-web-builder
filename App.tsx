@@ -74,7 +74,7 @@ const App: React.FC = () => {
   const getDefaultContent = (type: ElementType) => {
     switch (type) {
       case ElementType.NAVBAR: return { title: 'MyBrand' };
-      case ElementType.HERO: return { title: 'Welcome to the Future', subtitle: 'Start building something amazing today.', buttonText: 'Get Started' };
+      case ElementType.HERO: return { title: 'Welcome to the web builder', subtitle: 'Start building something amazing today.', buttonText: 'Get Started' };
       case ElementType.TEXT_BLOCK: return { title: 'About Us', body: 'We are a team of passionate creators.' };
       case ElementType.IMAGE: return { imageUrl: 'https://picsum.photos/1200/800' };
       case ElementType.BUTTON: return { text: 'Click Me' };
